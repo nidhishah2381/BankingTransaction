@@ -3,9 +3,9 @@
 
 	<!-- <parameter name="driver.name" value="firefoxDriver" /> -->
 <test name="Bank Transfer Test" enabled="true">
-		<parameter name="scenario.file.loc" value="scenarios/MoneyTransfer.bdd"></parameter>
+		<!-- <parameter name="scenario.file.loc" value="scenarios/MoneyTransfer.bdd"></parameter> -->
 		<classes>
-			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"></class>
 		</classes>
 	</test>
 </suite>

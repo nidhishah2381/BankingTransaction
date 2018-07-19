@@ -1,5 +1,7 @@
 package com.bankingtransaction;
 
+import com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory;
+
 public class TransactionProcess {
 	
 	public boolean login(String username, String password) {
