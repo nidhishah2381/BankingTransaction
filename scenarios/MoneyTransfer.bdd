@@ -1,0 +1,12 @@
+
+
+SCENARIO: Money Transfer
+META-DATA: {"description":"Transfer money to a friend","groups":["QCSL"]}
+	
+	Given Login to the online banking portal with data '${accountHolder.login}'
+	When user transfer '${accountHolder.amountToBePaid}' to '${payee}'
+	Then Amount '${accountHolder.amountToBePaid}' is deducted from '${accountHolder.currentBalance}' 
+	And '${payee.currentBalance}' is increased by '${accountHolder.amountToBePaid}'
+
+END
+

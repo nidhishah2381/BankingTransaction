@@ -1,0 +1,13 @@
+{
+  "name": "BankingTransaction.scenarios.MoneyTransfer.bdd",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1531999257832,
+  "endTime": 1531999258344
+}

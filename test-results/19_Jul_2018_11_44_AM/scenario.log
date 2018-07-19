@@ -1,0 +1,18 @@
+17:14:54 scenario.file.loc[Ljava.lang.String;@23d2a7e8
+17:14:54 loading BDD file: scenarios/MoneyTransfer.bdd
+17:14:54 total test found: 1
+17:14:55 
+
+Executing scenario: Money Transfer - Transfer money to a friend
+17:14:55 pkg: com.qmetry.qaf.automation.step
+17:14:55 pkg: com.bankingtransactionsteps
+17:14:55 Found duplicate step to load [] with [lower] prority then []
+17:14:55 Invoking Teststep: Given Login to the online banking portal with data '${accountHolder.login}' with arguments: [${accountHolder.login}]
+17:14:55 Completed Teststep: Given Login to the online banking portal with data '${accountHolder.login}' with arguments: [${accountHolder.login}]
+17:14:55 Invoking Teststep: When user transfer '${accountHolder.amountToBePaid}' to '${payee}' with arguments: [${accountHolder.amountToBePaid}, ${payee}]
+17:14:55 Completed Teststep: When user transfer '500' to '${payee}' with arguments: [${accountHolder.amountToBePaid}, ${payee}]
+17:14:55 Invoking Teststep: Then Amount '${accountHolder.amountToBePaid}' is deducted from '${accountHolder.currentBalance}' with arguments: [${accountHolder.amountToBePaid}, ${accountHolder.currentBalance}]
+17:14:55 Completed Teststep: Then Amount '500' is deducted from '5000' with arguments: [${accountHolder.amountToBePaid}, ${accountHolder.currentBalance}]
+17:14:55 Invoking Teststep: And '${payee.currentBalance}' is increased by '${accountHolder.amountToBePaid}' with arguments: [${payee.currentBalance}, ${accountHolder.amountToBePaid}]
+17:14:55 Completed Teststep: And '4500' is increased by '500' with arguments: [${payee.currentBalance}, ${accountHolder.amountToBePaid}]
+17:14:55 Competed scenario: Money Transfer with status SUCESS

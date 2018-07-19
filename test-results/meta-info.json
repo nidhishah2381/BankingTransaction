@@ -1,0 +1,54 @@
+{
+  "reports": [
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/19_Jul_2018_11_45_AM/json",
+      "startTime": 1532000725000
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/19_Jul_2018_11_44_AM/json",
+      "startTime": 1532000694992
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/19_Jul_2018_11_43_AM/json",
+      "startTime": 1532000588502
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/19_Jul_2018_11_41_AM/json",
+      "startTime": 1532000532234
+    },
+    {
+      "name": "BankingTransaction.scenarios.MoneyTransfer.bdd",
+      "dir": "test-results/19_Jul_2018_05_05_PM/json",
+      "startTime": 1532000118372
+    },
+    {
+      "name": "BankingTransaction.scenarios.MoneyTransfer.bdd",
+      "dir": "test-results/19_Jul_2018_05_04_PM/json",
+      "startTime": 1532000075179
+    },
+    {
+      "name": "BankingTransaction.scenarios.MoneyTransfer.bdd",
+      "dir": "test-results/19_Jul_2018_04_59_PM/json",
+      "startTime": 1531999794246
+    },
+    {
+      "name": "BankingTransaction.scenarios.MoneyTransfer.bdd",
+      "dir": "test-results/19_Jul_2018_04_59_PM/json",
+      "startTime": 1531999757498
+    },
+    {
+      "name": "BankingTransaction.scenarios.MoneyTransfer.bdd",
+      "dir": "test-results/19_Jul_2018_04_58_PM/json",
+      "startTime": 1531999703321
+    },
+    {
+      "name": "BankingTransaction.scenarios.MoneyTransfer.bdd",
+      "dir": "test-results/19_Jul_2018_04_50_PM/json",
+      "startTime": 1531999257832
+    }
+  ]
+}

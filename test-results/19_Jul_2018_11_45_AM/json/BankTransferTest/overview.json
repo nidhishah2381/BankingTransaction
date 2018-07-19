@@ -1,0 +1,35 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "resources": "resources/testdata/Banking.xml",
+      "scenario.file.loc": "scenarios/MoneyTransfer.bdd",
+      "baseurl": "http://www.google.com"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_151",
+      "os.arch": "amd64",
+      "host": "ICPL10378",
+      "os.name": "Windows 10",
+      "user.name": "nidhi.shah",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1532000725433,
+  "endTime": 1532000725502
+}

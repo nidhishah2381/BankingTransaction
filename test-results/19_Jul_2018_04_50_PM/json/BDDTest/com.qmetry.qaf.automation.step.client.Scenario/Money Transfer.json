@@ -1,0 +1,71 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Given Login to the online banking portal with data '${accountHolder.login}'",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user transfer '${accountHolder.amountToBePaid}' to '${payee}'",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Amount '${accountHolder.amountToBePaid}' is deducted from '${accountHolder.currentBalance}'",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And '${payee.currentBalance}' is increased by '${accountHolder.amountToBePaid}'",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Login to the online banking portal with data '${accountHolder.login}' :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user transfer '${accountHolder.amountToBePaid}' to '${payee}'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Amount '${accountHolder.amountToBePaid}' is deducted from '${accountHolder.currentBalance}'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And '${payee.currentBalance}' is increased by '${accountHolder.amountToBePaid}'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Given Login to the online banking portal with data '${accountHolder.login}'@scenarios/MoneyTransfer.bdd#6 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Given Login to the online banking portal with data '${accountHolder.login}'(scenarios/MoneyTransfer.bdd:6)\r\n"
+}

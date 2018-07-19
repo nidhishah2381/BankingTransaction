@@ -1,0 +1,70 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToTheOnlineBankingPortalWithData",
+      "args": [
+        "[${accountHolder.login}]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "userTransferTo",
+      "args": [
+        "[${accountHolder.amountToBePaid}, ${payee}]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "amountIsDeductedFrom",
+      "args": [
+        "[${accountHolder.amountToBePaid}, ${accountHolder.currentBalance}]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "IsIncreasedBy",
+      "args": [
+        "[${payee.currentBalance}, ${accountHolder.amountToBePaid}]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Login to the online banking portal with data '${accountHolder.login}'",
+      "type": "TestStepPass",
+      "duration": 19,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user transfer '500' to '${payee}'",
+      "type": "TestStepPass",
+      "duration": 2,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Amount '500' is deducted from '5000'",
+      "type": "TestStepPass",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And '4500' is increased by '500'",
+      "type": "TestStepPass",
+      "duration": 2,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

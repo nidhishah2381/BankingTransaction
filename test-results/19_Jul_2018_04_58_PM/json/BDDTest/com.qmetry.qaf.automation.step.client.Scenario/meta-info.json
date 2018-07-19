@@ -1,0 +1,24 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Transfer money to a friend",
+        "groups": [
+          "QCSL"
+        ],
+        "lineNo": 3,
+        "name": "Money Transfer",
+        "referece": "scenarios/MoneyTransfer.bdd",
+        "sign": "scenarios.MoneyTransfer.bdd.Money Transfer()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1531999703417,
+      "duration": 484,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

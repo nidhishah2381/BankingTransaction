@@ -1,0 +1,16 @@
+
+<root>
+	<accountHolder>
+		<login>
+			<username>dona.bose@gmail.com</username>
+			<password>Ispl123#</password>
+		</login>
+		<currentBalance>5000</currentBalance>
+		<amountToBePaid>500</amountToBePaid>
+	</accountHolder>
+	<payee>
+		<name>Jack</name>
+		<accountNo>4546546423464</accountNo>
+		<currentBalance>4500</currentBalance>
+	</payee>
+</root>	
