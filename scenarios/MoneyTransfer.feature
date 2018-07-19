@@ -1,9 +1,9 @@
 Feature: Banking As a user I want to use a ATM Trasanction
 
-SCENARIO: Money Transfer	
-	Given Login to the online banking portal with data '${accountHolder.login}'
-	When user transfer '${accountHolder.amountToBePaid}' to '${payee}'
-	Then Amount '${accountHolder.amountToBePaid}' is deducted from '${accountHolder.currentBalance}' 
-	And '${payee.currentBalance}' is increased by '${accountHolder.amountToBePaid}'
-
+Scenario Outline: Money Transfer	
+	Given Login to the online banking portal with data 'dona.bose@gmail.com,Ispl123'
+	When user transfer '500' to '3413434134'
+	Then Amount 500 is deducted from 5000
+	And 4000 is increased by 500
+   
 END
