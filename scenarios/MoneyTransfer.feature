@@ -1,9 +1,10 @@
-Feature: Banking As a user I want to use a ATM Trasanction
+Feature: Transfer Money to Jack. Jack and I went for the dinner and I owe him 500
 
-Scenario Outline: Money Transfer	
-	Given Login to the online banking portal with data 'dona.bose@gmail.com,Ispl123'
-	When user transfer '500' to '3413434134'
-	Then Amount 500 is deducted from 5000
-	And 4000 is increased by 500
-   
-END
+Scenario: Transfer 500 to Jack 
+	Given Login to the online banking portal
+	When Transfer '500' to 'Jack'
+	Then Amount '500' is deducted from current balance
+	And Amount '500' is incresed in current balance of 'Jack'
+
+	
+
